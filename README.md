@@ -27,17 +27,36 @@ On the release of this program there is 11 users (this include admin, managers a
 
 ## How it work
 
-Sign in:
+# Sign in:
 
 Once you run the program you will be greeted with the login screen. Since this is an HR Admin System user cannot register and only be added by admin. 
 Please select one of the user details from User tab. 
 
-If you select to log in as Admin you will use the admin email adress as well as the the following password = TestPass1234
+If you select to log in as Admin you will use the admin email adress as well as the the following password = TestPass1234.
+
 If you select to log in as Manager or normal employee you will use one of their email adress and the following password = Password123#
 
 <img width="1374" alt="Screenshot 2022-05-05 at 15 22 42" src="https://user-images.githubusercontent.com/79621348/166932259-3a298caa-cc70-449a-89e7-8a074e7cdc85.png">
 
 
-Main menu:
+# Main menu:
+
+Admin menu:
+
+In the admin main tab you can use filter to filter certain out certain users, search for certain user, sort table by clicking on table header. At the bottom of the table got pagination to show how much users you want on one table.
+
+<img width="1376" alt="Screenshot 2022-05-05 at 15 31 41" src="https://user-images.githubusercontent.com/79621348/166935447-7c8284af-68ef-4842-9dd3-ec92077f90b7.png">
+
+If you select on the hamburger sign top left you will get a drop down list for admin that will look as follow.
+
+<img width="334" alt="Screenshot 2022-05-05 at 15 37 33" src="https://user-images.githubusercontent.com/79621348/166935396-70e3513b-e545-409c-a803-0f7690e0d9a0.png">
+
+Each of theese options will take yout to new page if selected.
+
+Manager & Employee menu:
+
+Manager and employee looks exactly the same the only difference is the amount of data that will be displayed to user. Manager will see his details as well as all the users under him. The employee will only see his/her details.
+
+
 
 
