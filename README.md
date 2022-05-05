@@ -6,12 +6,12 @@
 * Users 
 * How it work
 
-##Description
+#Description
 An HR program where we got 3 types of users namely (admin, manager, employee). Each user got access to certain routes and no one routes is the same as the other user. 
 
-##Instalation
+#Instalation
 
-##Users
+#Users
 
 Like mentioned there is 3 types of users:
 
@@ -25,7 +25,7 @@ Employees:
 On the release of this program there is 11 users (this include admin, managers and normal employee). Some of their details will be displayed below:
 
 
-##How it work
+#How it work
 
 Sign in:
 
