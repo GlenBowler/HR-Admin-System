@@ -191,6 +191,7 @@ export default function ManagerList() {
   };
   return (
     <div className="table_employeeList">
+      <h2> Employees </h2>
       <Paper>
         <SearchBar
           style={{ width: 300, float: "right" }}
