@@ -18,8 +18,14 @@ Like mentioned there is 3 types of users:
 Admin
 There is only one admin user availible. His details is as follow:
 
+<img width="635" alt="Screenshot 2022-05-05 at 15 52 46" src="https://user-images.githubusercontent.com/79621348/166938571-1824988f-80f1-4bc6-b8ea-3756780762e7.png">
+
 Managers:
 On the release of this program there is 3 managers. There details is as follow:
+
+<img width="608" alt="Screenshot 2022-05-05 at 15 55 17" src="https://user-images.githubusercontent.com/79621348/166939207-473fee9c-818f-4e90-b029-16c0cddebbaf.png">
+<img width="647" alt="Screenshot 2022-05-05 at 15 55 42" src="https://user-images.githubusercontent.com/79621348/166939218-0d0e11ce-1fe6-4885-aff2-1ab53c5a899c.png">
+<img width="620" alt="Screenshot 2022-05-05 at 15 57 46" src="https://user-images.githubusercontent.com/79621348/166939382-b227e4c1-4025-45c4-af8c-a171c4003a1e.png">
 
 Employees:
 On the release of this program there is 11 users (this include admin, managers and normal employee). Some of their details will be displayed below:
@@ -57,6 +63,11 @@ Manager & Employee menu:
 
 Manager and employee looks exactly the same the only difference is the amount of data that will be displayed to user. Manager will see his details as well as all the users under him. The employee will only see his/her details.
 
+<img width="1381" alt="Screenshot 2022-05-05 at 15 49 09" src="https://user-images.githubusercontent.com/79621348/166937725-9ea426e6-5a9a-480e-9f1e-e356b7cd67e2.png">
+
+If you select on the hamburger sign top left you will get a drop down list for managers/employee that will look as follow.
+
+<img width="321" alt="Screenshot 2022-05-05 at 15 49 34" src="https://user-images.githubusercontent.com/79621348/166937831-75482ff1-6c10-4484-8a19-4c293365778f.png">
 
 
 
