@@ -1,0 +1,187 @@
+/* Login Page styling */
+.login_container_outline{
+    margin:0 auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 20px;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.login_container_inside{
+    padding: 20px;
+}
+.login_input_box{
+   margin: 0 auto;
+   display: block;
+   width: 80%;
+}
+.label_login{
+    display:block;
+    text-align:left;
+    margin: 20px;
+    padding-left: 7%;
+}
+.login_button{
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    margin:0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.login_header{
+    text-align: center;
+}
+
+/* Nav Bar styling*/
+
+.navBar_container{
+    border: 3px solid black;
+    padding:10px;
+    margin: 5px;
+}
+
+.navBar_inside_container{
+ position: relative;
+  display: inline-block;
+}
+.button{
+  padding: 5px;
+  border: none;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+
+}
+.navBar_inside{
+    display: flex;
+    
+}
+.dropdown{
+  position: absolute;
+  top: 120%;
+  left: -3%;
+  width: 300px;
+  z-index: 2;
+  border: 1px solid black;
+  
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+li {
+    padding: 8px 12px;
+}
+  
+li:hover {
+    background-color: rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+}
+
+.dropDown_menu_header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signout_button{
+    border: none;
+    background-color: white;
+    text-align: left;
+    padding:0;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+.navbar_header{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links{
+    text-decoration: none;
+    color:black
+}
+
+/* Styling add page / edit page*/
+.h2_create{
+    font-family: 'Courier New', Courier, monospace;
+}
+label{
+    display: inline-block;
+    width: 200px;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace ;
+}
+.add_wrapper{
+    position: relative;
+    top:15%;
+    left:25%;
+}
+.add_input{
+    position:relative;
+    left:10%;
+    width: 400px;
+    height:30px;
+    margin-top: 10px;
+}
+.add_buttons{
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.selectedOption{
+    width: 410px;
+    color: #000;
+    left: 10%;
+}
+.label_select_wrapper{
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Styling filter departemnt*/
+
+.filter_wrapper{
+    margin-bottom: 10px;
+    border: #000 solid 1px;
+}
+.filter_button{
+     width: 60px;
+     height:30px;
+     background-color: white;
+     border: solid 1px;
+     margin-left: 50px;
+     margin-bottom: 10px; 
+     margin-top: 10px;
+}
+
+/* Styling my table*/
+.table_employeeList{
+    position: relative;
+    top:15%;
+    left:25%;
+    width: 950px;
+}
+
+/* Syling my unauthorized component*/
+.section_unAuth{
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    height: 200px;
+    border: 3px solid black;
+    margin-top: 20px;
+    background-color: red;
+}
+.section_unAuth{
+    text-align: center;
+}
+.button_noAuth{
+    border: 2px solid black;
+    margin: 10px;
+    width: 100px;
+    background-color: gray;
+}
