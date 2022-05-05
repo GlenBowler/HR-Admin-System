@@ -192,6 +192,7 @@ export default function DepartmentList() {
   };
   return (
     <div className="table_employeeList">
+    <h2>Departments </h2>
       <Paper>
         <div className="filter_wrapper">
           <FilterDeptData />
