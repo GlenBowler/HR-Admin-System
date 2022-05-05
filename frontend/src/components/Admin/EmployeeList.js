@@ -214,7 +214,6 @@ export default function EmployeeList() {
       managerCondition === false &&
       departmentCondition === false
     ) {
-      console.log("1");
       const filterData = data.filter((row) => {
         return row.status === statusCondition;
       });
@@ -224,7 +223,6 @@ export default function EmployeeList() {
       managerCondition === true &&
       departmentCondition === true
     ) {
-      console.log("2");
       const filterData = data.filter((row) => {
         return (
           row.status === statusCondition &&
@@ -238,7 +236,6 @@ export default function EmployeeList() {
       managerCondition === true &&
       departmentCondition === false
     ) {
-      console.log("3");
       const filterData = data.filter((row) => {
         return (
           row.status === statusCondition && row.employeeManager === manager
@@ -250,7 +247,6 @@ export default function EmployeeList() {
       managerCondition === false &&
       departmentCondition === true
     ) {
-      console.log("4");
       const filterData = data.filter((row) => {
         return row.status === statusCondition && row.name === department;
       });
@@ -260,7 +256,6 @@ export default function EmployeeList() {
       managerCondition === true &&
       departmentCondition === true
     ) {
-      console.log("5");
       const filterData = data.filter((row) => {
         return row.employeeManager === manager && row.name === department;
       });
@@ -270,14 +265,12 @@ export default function EmployeeList() {
       managerCondition === false &&
       departmentCondition === false
     ) {
-      console.log("6");
       return console.log("Nothing happening since nothing was selected");
     } else if (
       statusCondition === "undefined" &&
       managerCondition === true &&
       departmentCondition === false
     ) {
-      console.log("7");
       const filterData = data.filter((row) => {
         return row.employeeManager === manager;
       });
@@ -287,7 +280,6 @@ export default function EmployeeList() {
       managerCondition === false &&
       departmentCondition === true
     ) {
-      console.log("8");
       const filterData = data.filter((row) => {
         return row.name === department;
       });
@@ -330,6 +322,7 @@ export default function EmployeeList() {
   };
   return (
     <div className="table_employeeList">
+    <h2> Employees </h2>
       <Paper>
         <div className="filter_wrapper">
           <FilterStaffData />
